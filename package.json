@@ -1,11 +1,14 @@
 {
   "name": "eslint-plugin-no-proptypes-in-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint rule to avoid using proptypes in typescript",
-  "main": "rules/no-proptypes-in-ts.js",
-  "author": "Juan Garay",
+  "main": "lib/index.js",
+  "author": "Juan Garay <juangaray93@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JuanGaray93/no-proptypes-in-ts"
+  },
   "license": "MIT",
-  "private": false,
   "scripts": {
     "test": "jest"
   },
