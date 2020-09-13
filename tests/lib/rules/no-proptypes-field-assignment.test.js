@@ -1,7 +1,7 @@
 "use strict";
 
-// we import the check-before-type-validation ESLint rule
-const typeCheckRule = require("../../../lib/rules/no-proptypes-in-ts");
+// we import the no-proptypes-field-assignment ESLint rule
+const typeCheckRule = require("../../../lib/rules/no-proptypes-field-assignment");
 
 const RuleTester = require("eslint").RuleTester;
 
@@ -17,7 +17,7 @@ const nonCoveredValidEdgeCase = {
 };
 
 // Our test run with all the different test cases
-ruleTester.run("type-check", typeCheckRule, {
+ruleTester.run("no-proptypes-field-assignment", typeCheckRule, {
   valid: [
     {
       filename: "Square.tsx",

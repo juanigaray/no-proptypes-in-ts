@@ -33,7 +33,7 @@ Add the plugin to your `.eslintrc` configuration.
 Configure the rules. [More information](https://eslint.org/docs/user-guide/configuring#configuring-rules)
 
     "rules": {
-        "no-proptypes-in-ts/no-proptypes-in-ts": "error",
+        "no-proptypes-in-ts/no-proptypes-field-assignment": "error",
         ...
     }
 
